@@ -1,0 +1,78 @@
+/* li{
+    color:red;
+}
+
+li:hover{
+    color:green;
+}
+
+li:focus{
+    color:blueviolet;
+}
+
+li:active{
+    color:blue;
+}
+
+li:nth-child(3){
+    background-color: aqua;
+}
+
+li:nth-child(even){
+    font-size: 24px;
+}
+
+li:nth-child(odd)>.link{
+    font-size: 32px;
+    font-style: italic;
+    color:black;
+}
+
+
+li:last-child>.link{
+    font-size: 100px;
+} */
+
+.day:nth-child(even){
+    color:blue;
+}
+
+.day:nth-child(odd){
+    color:red;
+}
+
+/* .lesson:nth-child(n){
+    background-color: blueviolet;
+} */
+
+p:hover{
+    font-size: 24px;
+}
+
+p:active{
+    color:black;
+}
+
+.lesson:focus{
+    font-style: italic;
+}
+
+.link:visited{
+    color:yellowgreen;
+}
+
+.link:link{
+    color:green;
+}
+
+.lesson:nth-child(n+7){
+   color: brown
+}
+
+.lesson:nth-child(3n){
+    color:aqua;
+}
+
+.day:first-child{
+    font-weight: 900;
+}
