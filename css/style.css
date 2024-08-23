@@ -1,0 +1,59 @@
+#greycol{
+    color:grey;
+}
+
+.text-box > div > p{
+    color:red;
+}
+div + h3 + p{
+    color:green;
+}
+.yellow{
+    color:yellow;
+}
+h3:first-child{
+    color:pink;
+}
+
+
+
+
+.day:nth-child(even){
+    color:blue;
+}
+
+.day:nth-child(odd){
+    color:red;
+}
+
+p:hover{
+    font-size: 24px;
+}
+
+p:active{
+    color:black;
+}
+
+.link:focus{
+    font-style: italic;
+}
+
+.link:visited{
+    color:yellowgreen;
+}
+
+.link:link{
+    color:green;
+}
+
+.lesson:nth-child(n+7){
+   color: brown
+}
+
+.lesson:nth-child(3n){
+    color:aqua;
+}
+
+.day:first-child{
+    font-weight: 900;
+}
