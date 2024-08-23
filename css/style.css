@@ -15,7 +15,7 @@ h3:first-child{
     color:pink;
 }
 
-
+/* ========================================================================================= */
 
 
 .day:nth-child(even){
@@ -26,11 +26,11 @@ h3:first-child{
     color:red;
 }
 
-p:hover{
+.weekday:hover{
     font-size: 24px;
 }
 
-p:active{
+.weekday:active{
     color:black;
 }
 
